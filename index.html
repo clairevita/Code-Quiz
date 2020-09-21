@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Get Quizzed!</title>
   </head>
   <body>
@@ -32,7 +32,33 @@
       </div>
     </aside>
 
-    <button type="button" class="btn btn-success startBtn">Start</button>
+    <main class="mx-5 px-5">
+      <div class="d-flex justify-content-center buttonZone visible ">
+        <button type="button" class="btn btn-success btn-lg startBtn">Start</button>
+      </div>
+      
+      <div class="quizZone">
+        <div class="mx-5 jumbotron visible">
+          <h4 class="questionZone">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</h4>
+          <hr class="my-4">
+          <ul>
+            <li class="my-3">
+              <a class="btn btn-primary btn-lg answerA" href="#" role="button">1.</a>
+            </li>
+            <li class="my-3">
+              <a class="btn btn-primary btn-lg answerB" href="#" role="button">2.</a>
+            </li>
+            <li class="my-3">
+              <a class="btn btn-primary btn-lg answerC" href="#" role="button">3.</a>
+            </li>
+            <li class="my-3">
+              <a class="btn btn-primary btn-lg answerD" href="#" role="button">4.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
