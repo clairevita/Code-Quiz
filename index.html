@@ -22,16 +22,13 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+            <h3 class="modal-title" id="exampleModalLabel">Highscores!</h3>
           </div>
           <div class="modal-body">
-            <p class="scoreTable">Nothing Here!</p>
+            <p class="scoreTable"></p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -39,20 +36,19 @@
 
     <!--This modal is where the user views and submits their score.-->
 
-    <aside class="modal fade" id="scoreEntry" tabindex="-1">
+    <aside class="modal fade" id="scoreEntry" data-backdrop="static" data-keyboard="false" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+            <h3 class="modal-title" id="scoreQuality"></h3>
           </div>
           <div class="modal-body">
-            <p class="scoreTable">Nothing Here!</p>
+            <h5>Score: <span id="finalScore"></span></h5>
+            <br>
+            <h5>Time: <span id="finalTime"></span></h5>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal" data-toggle="modal" data-target="#highScores">Submit</button>
           </div>
         </div>
       </div>
@@ -74,18 +70,19 @@
           <hr class="my-4">
           <ul>
             <li class="my-3">
-              <a class="btn btn-primary btn-lg" id="answerA" href="#" role="button">1.</a>
+              <a class="btn btn-primary btn-lg" id="answerA" role="button">1.</a>
             </li>
             <li class="my-3">
-              <a class="btn btn-primary btn-lg"  id="answerB" href="#" role="button">2.</a>
+              <a class="btn btn-primary btn-lg"  id="answerB" role="button">2.</a>
             </li>
             <li class="my-3">
-              <a class="btn btn-primary btn-lg"  id="answerC" href="#" role="button">3.</a>
+              <a class="btn btn-primary btn-lg"  id="answerC" role="button">3.</a>
             </li>
             <li class="my-3">
-              <a class="btn btn-primary btn-lg"  id="answerD" href="#" role="button">4.</a>
+              <a class="btn btn-primary btn-lg"  id="answerD" role="button">4.</a>
             </li>
           </ul>
+          <h5 id="playerScore"></h5>
         </div>
       </div>
 
