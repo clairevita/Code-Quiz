@@ -1,5 +1,7 @@
 # Code-Quiz
 
+## [Check out the Deployed Page Here!](https://clairevita.github.io/Code-Quiz/)
+
 ## About
 This Code Quiz site was inspired by the Bootstrap modal feature. It's animated transition, shadowed backdrop, and lightweight design make it feel incredibly user friendly. As such, this Code Quiz takes place entirely on one page, with the modal elements acting as a substitute for any secondary or tertiary webpages. I want to keep my user on the same page and retesting so that they can achieve the best possible score they can get. 
 
